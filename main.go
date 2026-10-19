@@ -9,8 +9,11 @@ import (
 func main() {
 	//fmt.Println("Even Numbers:")
 	//printNumberEven()
-	fmt.Print("sum: ")
-	fmt.Print(summonArrayElement([]int{1, 2, 3, 4, 5}))
+	//fmt.Print("sum: ")
+	//fmt.Print(summonArrayElement([]int{1, 2, 3, 4, 5}))
+
+	Amax, _ := largestNum([]int{})
+	fmt.Println("largest:", Amax)
 
 }
 
