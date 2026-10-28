@@ -21,6 +21,14 @@ func main() {
 	x := 42 //third statement
 	y := 5  // fourth statement
 	fmt.Println(x, y)
+
+	if x < 42 {
+		fmt.Println("x is greater than 42.")
+	} else if x == 42 {
+		fmt.Println("x is equal to 42.")
+	} else {
+		fmt.Println("x is greater than 42.")
+	}
 }
 
 func printNumberEven() {
