@@ -15,6 +15,12 @@ func main() {
 	Amax, _ := largestNum([]int{})
 	fmt.Println("largest:", Amax)
 
+	//using sequence
+	fmt.Println("this is the first statement")
+	fmt.Println("this is the second statement")
+	x := 42 //third statement
+	y := 5  // fourth statement
+	fmt.Println(x, y)
 }
 
 func printNumberEven() {
