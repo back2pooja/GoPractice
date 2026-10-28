@@ -29,6 +29,23 @@ func main() {
 	} else {
 		fmt.Println("x is greater than 42.")
 	}
+
+	switch x {
+	case 40:
+		fmt.Println("x is 40")
+		fallthrough
+	case 41:
+		fmt.Println("printed because of ALL the fallthrough statements: x is 41")
+		fallthrough
+	case 42:
+		fmt.Println("printed because of ALL the fallthrough statements: x is 42")
+		fallthrough
+	case 43:
+		fmt.Println("printed because of ALL the fallthrough statements: x is 43")
+		fallthrough
+	default:
+		fmt.Println("printed because of Something went wrong")
+	}
 }
 
 func printNumberEven() {
